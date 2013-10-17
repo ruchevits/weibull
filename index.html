@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Weibull Distribution</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/global.css">
+    <script data-main="javascripts/init" src="javascripts/libraries/require/require.js"></script>
+</head>
+<body>
+
+<div id="weibull-container">
+
+    <div id="weibull-title">
+        Weibull Distribution
+    </div>
+
+    <div id="weibull-graph">
+        <canvas></canvas>
+    </div>
+
+    <div id="weibull-params">
+        <span class="help">Scale parameter</span>
+        <label for="lambda">&lambda;</label>
+        <input id="lambda" type="number" step="1" min="1">
+        <span class="help">Shape parameter</span>
+        <label for="k">k</label>
+        <input id="k" type="number" step="1" min="1">
+        <span class="help">Probability density</span>
+        <label for="cpd">d</label>
+        <input id="cpd" type="text" disabled="disabled">
+    </div>
+
+    <div id="weibull-range">
+        <span class="start"></span>
+        <span class="between"></span>
+        <span class="end"></span>
+    </div>
+
+</div>
+
+</body>
+</html>
